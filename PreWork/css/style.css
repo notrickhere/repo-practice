@@ -1,0 +1,79 @@
+body{
+	background-color: #bba592 ;
+	color: #d1edf2;	
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+h1, h2, h3{
+	text-decoration: underline;
+	font-weight: bold;
+	font-style: italic;
+}
+p{
+	font-style: italic;
+	font-size: 1em;
+	letter-spacing: 0.5em;
+	line-height: 1.5;
+}
+ul{
+	font-style: italic;
+	text-align: center;
+}
+a{	
+	color: purple;
+	font-style: italic;
+}
+table{
+	margin: auto;
+}
+th, td{
+	color: #d1edf2;
+	font-style: italic;
+}
+form{
+	color: #d1edf2;
+	padding: 5px;
+	font-style: italic;
+	border-style: ridge;
+	font-weight: 900px;
+}
+input[type=text]:focus{
+	background-color: #90ee90;
+}
+input[type=button] {
+    color:  black;
+    background-color: #D3D3D3;
+
+}
+input[type=button]:hover{
+	background-color: #A9A9A9;
+}
+input[type=button]:active{
+	background-color: black;
+}
+.section{
+	color: #ddf1fb;
+	letter-spacing: 0.5em;
+}
+.fontStyle{
+	font-style: italic;
+}
+#intro, #goal{
+	color: #9bc4e2;
+}
+.container{
+	display: -webkit-flex;
+	display: flex;
+	position: block;
+	margin: auto;
+}
+#crunch{
+	max-height: 200px;
+}
+#LOL{
+	max-height: 200px;
+}
+#MW{
+	flex: 1;
+}
